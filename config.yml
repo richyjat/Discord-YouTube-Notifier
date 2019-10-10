@@ -1,12 +1,12 @@
 config:
     connection:
-        Google API key: # YouTube v3 API Key
-        Discord bot token: # Discord bot token
+        Google API key: AIzaSyCwRa73oEPXGE9kJOQptANXASSUZ09PDM4
+        Discord bot token: NjIwNzE1Mjk2NjY3MjA1NjQy.XZ6b2w.YbTduqkqZHV75nus9rDgMRoTrw8
     main:
         Ping Every x Minutes: 5 # 5-15 minutes should be ok, anything lower not recommended, because the API traffic will be used up very quickly otherwise.
     Discord Channel:
         0:
-            channelID: # Discord channel ID
+            channelID: 593754207212011531
             New video: ":film_frames: **{0} HAS UPLOADED A NEW VIDEO!** :film_frames:" # Message that appears when a YouTuber has uploaded a new video
             Livestream: ":red_circle: **{0} IS LIVESTREAMING NOW!** :red_circle:" # Message that appears when a YouTuber is livestreaming
             # My server content-sharing
@@ -17,8 +17,8 @@ config:
             # Other server content-sharing
     YouTubers:
         0:
-            name: # Name that will be displayed in discord, mentions can be used with <@DiscordUserID>
-            channelID: # YouTube Channel ID
+            name: <@534384446611128341>
+            channelID: https://www.youtube.com/channel/UCL_MruUQFITp6P8fSKV5Lag
             # Some name
         1:
             name: # Name that will be displayed in discord, mentions can be used with <@DiscordUserID>
